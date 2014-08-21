@@ -31,7 +31,7 @@ while(1)
   //echo "Waiting for data ... \n";
      
   //Receive some data
-  $len = socket_recvfrom($sock, $buf, 1024, MSG_OOB, $remote_ip, $remote_port) != FALSE){
+  $len = socket_recvfrom($sock, $buf, 1024, MSG_OOB, $remote_ip, $remote_port);
   
   echo "$remote_ip : $remote_port -- " . $buf. "\n";
      
