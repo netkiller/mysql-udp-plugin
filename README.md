@@ -5,6 +5,8 @@ UDP Sendto
 
 Build
 -----
+    # git clone https://github.com/netkiller/mysql-udp-plugin.git
+    # cd mysql-udp-plugin
     # cmake .
     # make && make install
 
